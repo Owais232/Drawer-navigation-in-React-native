@@ -105,6 +105,10 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+    project.ext.react = [
+    enableHermes: true,  // Add this line
+]
+
 }
 
 dependencies {
